@@ -1,4 +1,7 @@
-﻿using System.Xml;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace Game;
 
@@ -14,7 +17,17 @@ public class Application
 
     public Application()
     {
-        _schedule = new Dictionary<WeakDay, List<Task>>();
+        _schedule = new Dictionary<WeakDay, List<Task>>()
+        {
+            {WeakDay.Monday, new List<Task>()},
+            {WeakDay.Tuesday, new List<Task>()},
+            {WeakDay.Wednesday, new List<Task>()},
+            {WeakDay.Thursday, new List<Task>()},
+            {WeakDay.Friday, new List<Task>()},
+            {WeakDay.Saturday, new List<Task>()},
+            {WeakDay.Sunday, new List<Task>()},
+        };
+        
         TaskManager = new TaskManager();
     }
     
@@ -23,6 +36,36 @@ public class Application
     public void RandomizeSchedule()
     {
         var rnd = new Random();
+        var randomTasksCount = (decimal) TaskManager.Tasks.Count(item => item.WeakDay == WeakDay.Random);
+        var randomTaskInDay = (int) Math.Ceiling(randomTasksCount / DaysInWeak);
+
+        foreach (var task in TaskManager.Tasks)
+        {
+            var weakDay = task.WeakDay;
+            if (weakDay is WeakDay.Random)
+                weakDay = rnd.Next(1, 7).GetWeakDay();
+            
+            if (!_schedule.ContainsKey(weakDay))
+                _schedule.Add(weakDay, new List<Task>());
+            
+            _schedule[weakDay].Add(task);
+        }
+    }
+
+    public override string ToString()
+    {
+        var sb = new StringBuilder();
+        foreach (var item in _schedule)
+        {
+            sb.Append(item.Key)
+                .AppendLine(": ");
+            foreach (var task in item.Value)
+                sb.AppendLine($"    {task}");
+            
+            sb.AppendLine();
+        }
+
+        return sb.ToString();
     }
 }
 
@@ -90,5 +133,7 @@ public class Task
     
     public string Name { get; private set; }
     public WeakDay WeakDay { get; set; }
+
+    public override string ToString() => Name;
 }
 

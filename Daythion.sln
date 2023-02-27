@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{93F631D1-16F5-451B-BF86-43829C1B08EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleView", "ConsoleView\ConsoleView.csproj", "{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{93F631D1-16F5-451B-BF86-43829C1B08EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93F631D1-16F5-451B-BF86-43829C1B08EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93F631D1-16F5-451B-BF86-43829C1B08EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
