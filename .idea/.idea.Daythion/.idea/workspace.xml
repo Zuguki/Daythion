@@ -8,9 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6f6b5ea-da3e-4aed-86a5-8f36eec61d1c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Daythion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daythion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Daythion.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Daythion.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game/Game.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Game.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Task.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677466863947</updated>
-      <workItem from="1677466871232" duration="3501000" />
+      <workItem from="1677466871232" duration="3866000" />
     </task>
     <servers />
   </component>

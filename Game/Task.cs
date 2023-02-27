@@ -17,17 +17,7 @@ public class Application
 
     public Application()
     {
-        _schedule = new Dictionary<WeakDay, List<Task>>()
-        {
-            {WeakDay.Monday, new List<Task>()},
-            {WeakDay.Tuesday, new List<Task>()},
-            {WeakDay.Wednesday, new List<Task>()},
-            {WeakDay.Thursday, new List<Task>()},
-            {WeakDay.Friday, new List<Task>()},
-            {WeakDay.Saturday, new List<Task>()},
-            {WeakDay.Sunday, new List<Task>()},
-        };
-        
+        _schedule = GetClearDictionary();
         TaskManager = new TaskManager();
     }
     
@@ -35,6 +25,7 @@ public class Application
 
     public void RandomizeSchedule()
     {
+        _schedule = GetClearDictionary();
         var rnd = new Random();
         var randomTasksCount = (decimal) TaskManager.Tasks.Count(item => item.WeakDay == WeakDay.Random);
         var randomTaskInDay = (int) Math.Ceiling(randomTasksCount / DaysInWeak);
@@ -55,7 +46,7 @@ public class Application
     public override string ToString()
     {
         var sb = new StringBuilder();
-        foreach (var item in _schedule)
+        foreach (var item in _schedule.Where(item => item.Value.Count != 0))
         {
             sb.Append(item.Key)
                 .AppendLine(": ");
@@ -67,6 +58,18 @@ public class Application
 
         return sb.ToString();
     }
+
+    private Dictionary<WeakDay, List<Task>> GetClearDictionary() =>
+        new()
+        {
+            {WeakDay.Monday, new List<Task>()},
+            {WeakDay.Tuesday, new List<Task>()},
+            {WeakDay.Wednesday, new List<Task>()},
+            {WeakDay.Thursday, new List<Task>()},
+            {WeakDay.Friday, new List<Task>()},
+            {WeakDay.Saturday, new List<Task>()},
+            {WeakDay.Sunday, new List<Task>()},
+        };
 }
 
 public static class IntExt

@@ -11,4 +11,14 @@ app.TaskManager
     .Add("Читать")
     .Add("Проект");
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine(1);
+app.RandomizeSchedule();
+Console.WriteLine(app);
+
+Console.WriteLine(2);
+app.RandomizeSchedule();
+Console.WriteLine(app);
+
+Console.WriteLine(3);
+app.RandomizeSchedule();
+Console.WriteLine(app);

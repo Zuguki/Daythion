@@ -1,0 +1,12 @@
+/home/flash/Code/Rider/MyProjects/Daythion/Game/bin/Debug/net6.0/Game.deps.json
+/home/flash/Code/Rider/MyProjects/Daythion/Game/bin/Debug/net6.0/Game.dll
+/home/flash/Code/Rider/MyProjects/Daythion/Game/bin/Debug/net6.0/ref/Game.dll
+/home/flash/Code/Rider/MyProjects/Daythion/Game/bin/Debug/net6.0/Game.pdb
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.csproj.AssemblyReference.cache
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.GeneratedMSBuildEditorConfig.editorconfig
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.AssemblyInfoInputs.cache
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.AssemblyInfo.cs
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.csproj.CoreCompileInputs.cache
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.dll
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/ref/Game.dll
+/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/Debug/net6.0/Game.pdb
