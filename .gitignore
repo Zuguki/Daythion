@@ -1,6 +1,7 @@
 ### ConfigFiles ###
 token.txt
 *token.txt
+*.json
 
 ### DotnetCore ###
 # .NET Core build folders
