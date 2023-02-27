@@ -17,10 +17,9 @@ var botClient = new TelegramBotClient(token);
 
 using CancellationTokenSource cts = new ();
 
-// StartReceiving does not block the caller thread. Receiving is done on the ThreadPool.
 ReceiverOptions receiverOptions = new ()
 {
-    AllowedUpdates = Array.Empty<UpdateType>() // receive all update types
+    AllowedUpdates = Array.Empty<UpdateType>() 
 };
 
 botClient.StartReceiving(
@@ -35,12 +34,10 @@ var user = await botClient.GetMeAsync();
 Console.WriteLine($"Start listening for @{user.Username}");
 Console.ReadLine();
 
-// Send cancellation request to stop bot
 cts.Cancel();
 
 async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
 {
-    var app = new Application();
     if (update.Message is not { } message)
         return;
     
@@ -48,7 +45,10 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
         return;
 
     var chatId = message.Chat.Id;
-    
+    var path = "users/" + chatId + ".json";
+    Application? app;
+    app = File.Exists(path) ? ReadFromJsonFile<Application>(path) : new Application();
+
     if (messageText == "Очистить задачи")
     {
         app.TaskManager.ClearTasks();
@@ -56,6 +56,7 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
             chatId: chatId, 
             text:"Задачи удаленны!",
             cancellationToken: cancellationToken);
+        
     }
     else if (messageText == "Добавить задачу️")
     {
@@ -89,7 +90,32 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
             text: "Расписание обновлено",
             cancellationToken: cancellationToken);
     }
-    
+    else
+    {
+        var splitText = messageText.Split(" ");
+        if (splitText.Length == 2)
+        {
+            app.TaskManager.Add(splitText[0], int.Parse(splitText[1]).GetWeakDay());
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Done",
+                cancellationToken: cancellationToken);
+        }
+        else if (splitText.Length == 1)
+        {
+            app.TaskManager.RemoveByName(messageText);
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Done",
+                cancellationToken: cancellationToken);
+        }
+        else
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Error",
+                cancellationToken: cancellationToken);
+    }
+
     ReplyKeyboardMarkup replyKeyboardMarkup = new(new[]
     {
         new KeyboardButton[] { "Очистить задачи", "Добавить задачу️" },
@@ -100,11 +126,6 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
         ResizeKeyboard = true
     };
 
-    var sentMessage = await botClient.SendTextMessageAsync(
-        chatId: chatId,
-        text: messageText,
-        replyMarkup: replyKeyboardMarkup,
-        cancellationToken: cancellationToken);
 }
 
 Task HandlePollingErrorAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cancellationToken)

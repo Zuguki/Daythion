@@ -10,17 +10,23 @@
   <component name="ChangeListManager">
     <list default="true" id="c6f6b5ea-da3e-4aed-86a5-8f36eec61d1c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daythion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daythion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleView/ConsoleView.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/ConsoleView.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleView/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/Game.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/Game.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/Game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/Game.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Task.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Task.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/bin/Debug/net6.0/Game.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game/bin/Debug/net6.0/Game.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/bin/Debug/net6.0/Game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Game/bin/Debug/net6.0/Game.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/bin/Debug/net6.0/ref/Game.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game/bin/Debug/net6.0/ref/Game.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/net6.0/Game.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/net6.0/Game.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/net6.0/Game.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/net6.0/Game.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/net6.0/ref/Game.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/net6.0/ref/Game.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TelegramView/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramView/TelegramView.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/TelegramView.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TelegramView/obj/Debug/net6.0/TelegramView.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/Debug/net6.0/TelegramView.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramView/obj/TelegramView.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/TelegramView.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramView/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramView/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramView/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TelegramView/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +35,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7a209d9ce4174eb59e42e35f9ad78d3b94de00/06/19018541/AsyncTaskMethodBuilder`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7a209d9ce4174eb59e42e35f9ad78d3b94de00/b9/3afd20ef/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7ed6f5e3b5f78ae215ce2f37f9ca779fea6e31feb6dfdf8b5683b9b27ba54/JsonConvert.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9ed6b936684a8d3b132c6e8a7569c8d4f485a04ba7022119f9871438e47f2/JsonSerializerInternalReader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fa5b8f5a8d529ba580fa9949eb2658dc9570986d6066151014b34e567dde9b8f/ChatId.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677466863947</updated>
-      <workItem from="1677466871232" duration="11381000" />
+      <workItem from="1677466871232" duration="14023000" />
     </task>
     <servers />
   </component>
@@ -124,82 +137,82 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
-          <line>11</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="11" containingFunctionPresentation="">
+          <url>file://$PROJECT_DIR$/TelegramView/Program.cs</url>
+          <line>46</line>
+          <properties documentPath="$PROJECT_DIR$/TelegramView/Program.cs" initialLine="46" containingFunctionPresentation="local function 'HandleUpdateAsync'">
             <startOffsets>
-              <option value="156" />
+              <option value="1147" />
             </startOffsets>
             <endOffsets>
-              <option value="189" />
+              <option value="1176" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
-          <line>13</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="13" containingFunctionPresentation="">
+          <url>file://$PROJECT_DIR$/Game/Task.cs</url>
+          <line>135</line>
+          <properties documentPath="$PROJECT_DIR$/Game/Task.cs" initialLine="135" containingFunctionPresentation="constructor 'Task'">
             <startOffsets>
-              <option value="215" />
+              <option value="3481" />
             </startOffsets>
             <endOffsets>
-              <option value="302" />
+              <option value="3482" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
-          <line>16</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="14" containingFunctionPresentation="">
+          <url>file://$PROJECT_DIR$/Game/Task.cs</url>
+          <line>141</line>
+          <properties documentPath="$PROJECT_DIR$/Game/Task.cs" initialLine="141" containingFunctionPresentation="constructor 'Task'">
             <startOffsets>
-              <option value="440" />
+              <option value="3588" />
             </startOffsets>
             <endOffsets>
-              <option value="452" />
+              <option value="3589" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
-          <line>14</line>
-          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="14" containingFunctionPresentation="">
+          <url>file://$PROJECT_DIR$/Game/Task.cs</url>
+          <line>147</line>
+          <properties documentPath="$PROJECT_DIR$/Game/Task.cs" initialLine="147" containingFunctionPresentation="constructor 'Task'">
             <startOffsets>
-              <option value="303" />
+              <option value="3702" />
             </startOffsets>
             <endOffsets>
-              <option value="351" />
+              <option value="3703" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="6" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
           <line>12</line>
           <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="12" containingFunctionPresentation="">
             <startOffsets>
-              <option value="190" />
+              <option value="157" />
             </startOffsets>
             <endOffsets>
-              <option value="214" />
+              <option value="191" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
           <line>15</line>
           <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="15" containingFunctionPresentation="">
             <startOffsets>
-              <option value="352" />
+              <option value="305" />
             </startOffsets>
             <endOffsets>
-              <option value="439" />
+              <option value="354" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -10,7 +10,6 @@ public enum WeakDay
     Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, Random
 }
 
-[Serializable]
 public class Application
 {
     private Dictionary<WeakDay, List<Task>> _schedule;
@@ -47,6 +46,9 @@ public class Application
     public override string ToString()
     {
         var sb = new StringBuilder();
+        if (_schedule.Count(item => item.Value.Count != 0) == 0)
+            return "Error";
+        
         foreach (var item in _schedule.Where(item => item.Value.Count != 0))
         {
             sb.Append(item.Key)
@@ -130,10 +132,6 @@ public class TaskManager
 
 public class Task
 {
-    public Task()
-    {
-    }
-    
     public Task(string name)
     {
         Name = name;

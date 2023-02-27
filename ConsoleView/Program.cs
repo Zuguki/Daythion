@@ -5,7 +5,17 @@ using Newtonsoft.Json;
 
 
 var app = new Application();
+app.TaskManager
+    .Add("A")
+    .Add("B")
+    .Add("C");
+
+WriteToJsonFile("test.json", app);
+app = new Application();
 Console.WriteLine($"Добро пожаловать в Daythion, User: {app.TaskManager.Tasks.Count}");
+app = ReadFromJsonFile<Application>("test.json");
+Console.WriteLine($"Добро пожаловать в Daythion, User: {app.TaskManager.Tasks.Count}");
+
 while (true)
 {
     Console.WriteLine("Что вы хотите сделать?");
@@ -52,6 +62,37 @@ while (true)
     }
     else
         Console.WriteLine("Такой комманды нет:(");
+}
+
+
+static void WriteToJsonFile<T>(string filePath, T objectToWrite, bool append = false) where T : new()
+{
+    TextWriter? writer = null;
+    try
+    {
+        var contentsToWriteToFile = JsonConvert.SerializeObject(objectToWrite);
+        writer = new StreamWriter(filePath, append);
+        writer.Write(contentsToWriteToFile);
+    }
+    finally
+    {
+        writer?.Close();
+    }
+}
+
+static T? ReadFromJsonFile<T>(string filePath) where T : new()
+{
+    TextReader? reader = null;
+    try
+    {
+        reader = new StreamReader(filePath);
+        var fileContents = reader.ReadToEnd();
+        return JsonConvert.DeserializeObject<T>(fileContents);
+    }
+    finally
+    {
+        reader?.Close();
+    }
 }
 
 
