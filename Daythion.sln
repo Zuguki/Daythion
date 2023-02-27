@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleView", "ConsoleView\ConsoleView.csproj", "{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramView", "TelegramView\TelegramView.csproj", "{1B00A7AE-18A5-4970-9EC5-3B62319806FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0FA260E-0D06-4D47-8F46-7FC2C5F36907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B00A7AE-18A5-4970-9EC5-3B62319806FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B00A7AE-18A5-4970-9EC5-3B62319806FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B00A7AE-18A5-4970-9EC5-3B62319806FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B00A7AE-18A5-4970-9EC5-3B62319806FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
