@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/flash/Code/Rider/MyProjects/Daythion/Daythion/Daythion.csproj",
-      "projectName": "Daythion",
-      "projectPath": "/home/flash/Code/Rider/MyProjects/Daythion/Daythion/Daythion.csproj",
+      "projectUniqueName": "/home/flash/Code/Rider/MyProjects/Daythion/Game/Game.csproj",
+      "projectName": "Game",
+      "projectPath": "/home/flash/Code/Rider/MyProjects/Daythion/Game/Game.csproj",
       "packagesPath": "/home/flash/.nuget/packages/",
-      "outputPath": "/home/flash/Code/Rider/MyProjects/Daythion/Daythion/obj/",
+      "outputPath": "/home/flash/Code/Rider/MyProjects/Daythion/Game/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/flash/.nuget/NuGet/NuGet.Config"
