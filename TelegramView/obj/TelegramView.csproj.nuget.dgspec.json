@@ -37,6 +37,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[19.0.0-preview.2, )"
+            },
+            "Telegram.Bot.Extensions.LoginWidget": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Telegram.Bot.Extensions.Passport": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,4 @@
-namespace TelegramView;
+﻿using System;
+using Telegram.Bot;
 
-public class Program
-{
-    
-}
+Console.WriteLine("Hello, World!");
