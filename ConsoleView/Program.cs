@@ -2,23 +2,51 @@
 using Game;
 
 var app = new Application();
-app.TaskManager
-    .Add("Зал", WeakDay.Monday)
-    .Add("Зал", WeakDay.Wednesday)
-    .Add("Зал", WeakDay.Friday)
-    .Add("Дискретка")
-    .Add("Физика")
-    .Add("Читать")
-    .Add("Проект");
+Console.WriteLine("Добро пожаловать в Daythion");
+while (true)
+{
+    Console.WriteLine("Что вы хотите сделать?");
+    Console.WriteLine("0. Очистить задачи.");
+    Console.WriteLine("1. Добавить задачу.");
+    Console.WriteLine("2. Удалить задачу по имени.");
+    Console.WriteLine("3. Посмотреть расписание.");
+    Console.WriteLine("4. Получить новое расписание.");
 
-Console.WriteLine(1);
-app.RandomizeSchedule();
-Console.WriteLine(app);
-
-Console.WriteLine(2);
-app.RandomizeSchedule();
-Console.WriteLine(app);
-
-Console.WriteLine(3);
-app.RandomizeSchedule();
-Console.WriteLine(app);
+    var number = int.Parse(Console.ReadLine() ?? string.Empty);
+    if (number == 0)
+    {
+        app.TaskManager.ClearTasks();
+        Console.WriteLine("Задачи удаленны!");
+    }
+    else if (number == 1)
+    {
+        Console.WriteLine("Введите по шаблону: 'название задачи день недели (0-7)'");
+        Console.WriteLine("Введите 0 если без разницы в какой день недели ставить.");
+        var items = Console.ReadLine()?.Split(" ");
+        app.TaskManager.Add(items?[0], int.Parse(items?[1]).GetWeakDay());
+        Console.WriteLine($"Задача: {items[0]} была добавленна!");
+    }
+    else if (number == 2)
+    {
+        Console.Write("Введите название задачи для удаления: ");
+        var taskName = Console.ReadLine();
+        try
+        {
+            app.TaskManager.RemoveByName(taskName);
+            Console.WriteLine($"Задача: {taskName} была удаленна!");
+        }
+        catch
+        {
+            Console.WriteLine($"Задачи с именем: {taskName} не существует");
+        }
+    }
+    else if (number == 3)
+        Console.WriteLine(app);
+    else if (number == 4)
+    {
+        app.RandomizeSchedule();
+        Console.WriteLine("Расписание обновленно!");
+    }
+    else
+        Console.WriteLine("Такой комманды нет:(");
+}

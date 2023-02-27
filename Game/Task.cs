@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Game;
 
@@ -27,8 +28,8 @@ public class Application
     {
         _schedule = GetClearDictionary();
         var rnd = new Random();
-        var randomTasksCount = (decimal) TaskManager.Tasks.Count(item => item.WeakDay == WeakDay.Random);
-        var randomTaskInDay = (int) Math.Ceiling(randomTasksCount / DaysInWeak);
+        // var randomTasksCount = (decimal) TaskManager.Tasks.Count(item => item.WeakDay == WeakDay.Random);
+        // var randomTaskInDay = (int) Math.Ceiling(randomTasksCount / DaysInWeak);
 
         foreach (var task in TaskManager.Tasks)
         {
@@ -77,6 +78,7 @@ public static class IntExt
     public static WeakDay GetWeakDay(this int number) =>
         number switch
         {
+            0 => WeakDay.Random,
             1 => WeakDay.Monday,
             2 => WeakDay.Tuesday,
             3 => WeakDay.Wednesday,
@@ -90,7 +92,7 @@ public static class IntExt
 
 public class TaskManager
 {
-    public readonly List<Task> Tasks;
+    public List<Task> Tasks;
 
     public TaskManager()
     {
@@ -107,6 +109,12 @@ public class TaskManager
     {
         var task = GetTask(name);
         Tasks.Remove(task);
+        return this;
+    }
+
+    public TaskManager ClearTasks()
+    {
+        Tasks = new List<Task>();
         return this;
     }
 
