@@ -1,8 +1,11 @@
 ﻿using System;
+using System.IO;
 using Game;
+using Newtonsoft.Json;
+
 
 var app = new Application();
-Console.WriteLine("Добро пожаловать в Daythion");
+Console.WriteLine($"Добро пожаловать в Daythion, User: {app.TaskManager.Tasks.Count}");
 while (true)
 {
     Console.WriteLine("Что вы хотите сделать?");
@@ -50,3 +53,5 @@ while (true)
     else
         Console.WriteLine("Такой комманды нет:(");
 }
+
+

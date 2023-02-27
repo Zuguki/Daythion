@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "ConsoleView/1.0.0": {
         "dependencies": {
-          "Game": "1.0.0"
+          "Game": "1.0.0",
+          "Newtonsoft.Json": "13.0.0.0"
         },
         "runtime": {
           "ConsoleView.dll": {}
@@ -17,6 +18,14 @@
       "Game/1.0.0": {
         "runtime": {
           "Game.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
         }
       }
     }
@@ -29,6 +38,11 @@
     },
     "Game/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

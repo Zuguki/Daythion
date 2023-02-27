@@ -16,3 +16,5 @@
 /home/flash/Code/Rider/MyProjects/Daythion/ConsoleView/obj/Debug/net6.0/ref/ConsoleView.dll
 /home/flash/Code/Rider/MyProjects/Daythion/ConsoleView/obj/Debug/net6.0/ConsoleView.pdb
 /home/flash/Code/Rider/MyProjects/Daythion/ConsoleView/obj/Debug/net6.0/ConsoleView.genruntimeconfig.cache
+/home/flash/Code/Rider/MyProjects/Daythion/ConsoleView/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/flash/Code/Rider/MyProjects/Daythion/ConsoleView/bin/Debug/net6.0/Newtonsoft.Json.xml

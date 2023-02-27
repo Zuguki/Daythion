@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Game;
 
@@ -11,6 +10,7 @@ public enum WeakDay
     Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, Random
 }
 
+[Serializable]
 public class Application
 {
     private Dictionary<WeakDay, List<Task>> _schedule;
@@ -130,6 +130,10 @@ public class TaskManager
 
 public class Task
 {
+    public Task()
+    {
+    }
+    
     public Task(string name)
     {
         Name = name;

@@ -10,13 +10,17 @@
   <component name="ChangeListManager">
     <list default="true" id="c6f6b5ea-da3e-4aed-86a5-8f36eec61d1c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daythion/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daythion/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/bin/Debug/net6.0/ConsoleView.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/ConsoleView.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/ConsoleView.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleView/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleView/obj/Debug/net6.0/ConsoleView.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TelegramView/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramView/TelegramView.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/TelegramView.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TelegramView/obj/Debug/net6.0/TelegramView.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/Debug/net6.0/TelegramView.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramView/obj/TelegramView.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/TelegramView.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramView/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramView/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramView/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TelegramView/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/TelegramView/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected=".NET Project.TelegramView">
+  <component name="RunManager" selected=".NET Project.ConsoleView">
     <configuration name="ConsoleView" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -93,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677466863947</updated>
-      <workItem from="1677466871232" duration="7063000" />
+      <workItem from="1677466871232" duration="11381000" />
     </task>
     <servers />
   </component>
@@ -115,5 +119,89 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
+          <line>11</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="11" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="156" />
+            </startOffsets>
+            <endOffsets>
+              <option value="189" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="13" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="215" />
+            </startOffsets>
+            <endOffsets>
+              <option value="302" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
+          <line>16</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="14" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="440" />
+            </startOffsets>
+            <endOffsets>
+              <option value="452" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
+          <line>14</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="14" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="303" />
+            </startOffsets>
+            <endOffsets>
+              <option value="351" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
+          <line>12</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="12" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="190" />
+            </startOffsets>
+            <endOffsets>
+              <option value="214" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ConsoleView/Program.cs</url>
+          <line>15</line>
+          <properties documentPath="$PROJECT_DIR$/ConsoleView/Program.cs" initialLine="15" containingFunctionPresentation="">
+            <startOffsets>
+              <option value="352" />
+            </startOffsets>
+            <endOffsets>
+              <option value="439" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
